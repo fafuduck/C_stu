@@ -1,0 +1,15 @@
+ i = 0, s = 0;
+
+if(i%2) 不成立  i++  ->    i = 1    s+=i 等价于 s = s + i ; s = 1;   while (i < 5) 成立
+
+if(i%2)成立  i++  ->   i = 2    while (i < 5) 成立
+ 
+if(i%2)不成立  i++  ->  i = 3       s = s + i; s = 4;  while (i < 5) 成立
+
+if(i%2)成立   i++   ->  i = 4    while (i < 5) 成立
+
+if(i%2)不成立  i++  ->  i = 5    s = 9 ;  while (i < 5)  不成立
+
+退出循环
+
+输出s = 9
